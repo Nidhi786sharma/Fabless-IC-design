@@ -1,0 +1,28 @@
+primitive mux_udp(out,s0,s1,i0,i1,i2,i3);
+output out;
+input s0,s1;
+input i0,i1,i2,i3;
+
+table
+//s0 s1 i0 i1 i2 i3 : out;
+0 0 0 ? ? ? : 0;
+0 0 1 ? ? ? : 1;
+0 1 ? 0 ? ? : 0;
+0 1 ? 1 ? ? : 1;
+1 0 ? ? 0 ? : 0;
+1 0 ? ? 1 ? : 1;
+1 1 ? ? ? 0 : 0;
+1 1 ? ? ? 1 : 1;
+endtable
+
+endprimitive
+
+module UDP_MUX(out,s0,s1,i0,i1,i2,i3);
+output out;
+input s0,s1;
+input i0,i1,i2,i3;
+
+mux_udp u1(out,s0,s1,i0,i1,i2,i3);
+
+endmodule
+
