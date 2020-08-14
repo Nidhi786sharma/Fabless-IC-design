@@ -1,0 +1,22 @@
+//define edge sensitive sequential udp.
+primitive dflipflop_udp(regq,d,clk);
+output regq ;
+input d,clk;
+
+table
+//d clk : q;
+0 1  : 0;
+1 0  : 1;
+
+endtable
+
+endprimitive
+
+//terminal declarations
+module UDP_DFF(regq,d,clk);
+output regq;
+input  d,clk;
+
+dflipflop_udp u1(regq,d,clk);
+
+endmodule
