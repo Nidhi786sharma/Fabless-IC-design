@@ -1,0 +1,6 @@
+module all_zero_one_detector(zero,one,x);
+output zero,one;
+input [3:0]x;
+assign zero=~(|x);
+assign one=&x;
+endmodule
