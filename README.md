@@ -5,7 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Nidhi786sharma/Fabless-IC-design?style=social)](https://github.com/Nidhi786sharma/Fabless-IC-design/network) [![GitHub stars](https://img.shields.io/github/stars/Nidhi786sharma/Fabless-IC-design?style=social)](https://github.com/Nidhi786sharma/Fabless-IC-design/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 
-Welcome Everyone! This open source community is made to gather all the codes so that anyone who is looking for the verilog codes can found all at one place.
+Welcome Everyone! This open source community is made to gather all the verilog codes so that anyone who is interested in verilog  can found all at one place.
 
 ## Let's Contribute
 
